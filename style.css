@@ -12,16 +12,16 @@ h1 {
 }
 
 .text_rules {
-  margin: auto 5% auto 20%;
+  margin: auto 5% auto 5%;
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
+  font-size: 12px;
 }
 
 blockquote {
   font-family: "Poppins";
   font-weight: 200;
   font-style: italic;
-  font-size: 40px;
+  font-size: 12px;
 }
 
 figure {
@@ -34,7 +34,7 @@ figure {
 .caption {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .poster {
