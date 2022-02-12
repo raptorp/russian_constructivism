@@ -4,24 +4,32 @@
 
 body {
   background-color: #fff9f9;
-}
-
-h1 {
-  font-family: "Bodoni", serif;
-  font-weight: bold;
-}
-
-.text_rules {
   margin: auto 5% auto 5%;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.header_sub {
+  font-family: "Poppins";
+  font-weight: bold;
 }
 
 blockquote {
   font-family: "Poppins";
   font-weight: 200;
   font-style: italic;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 figure {
@@ -30,8 +38,13 @@ figure {
   height: auto;
   margin: 3rem auto 1rem auto;
 }
-
-.caption {
+.quote_caption {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 10px;
+}
+.figure_caption {
   font-family: "Poppins";
   font-weight: 600;
   font-size: 10px;
