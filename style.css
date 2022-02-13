@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* GOOGLE FONT IMPORT */
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
 
 body {
@@ -9,6 +10,8 @@ body {
   font-size: 12px;
 }
 
+/* HEADLINES */
+
 h1 {
   text-align: center;
   color: #f2f2f2;
@@ -17,29 +20,6 @@ h1 {
   padding: 10px 0 10px 0;
   margin: 0 0 5px 0;
 }
-
-.h_r {
-  font-family: "Bungee";
-  font-size: 70px;
-  height: fit-content;
-  line-height: 1;
-  margin: 0;
-}
-
-.h_c {
-  font-family: "Bungee";
-  font-size: 35px;
-  height: fit-content;
-  line-height: 1;
-}
-
-.h_year {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-size: 10px;
-  padding: 10px 0 0 0;
-}
-
 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
@@ -50,8 +30,29 @@ h2 {
   background-size: cover;
   padding: 1px 0 1px 0;
 }
+.h-rus {
+  font-family: "Bungee";
+  font-size: 70px;
+  height: fit-content;
+  line-height: 1;
+  margin: 0;
+}
+.h-con {
+  font-family: "Bungee";
+  font-size: 35px;
+  height: fit-content;
+  line-height: 1;
+}
+.h-year {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 10px;
+  padding: 10px 0 0 0;
+}
 
-.header_sub {
+/* TEXT */
+
+.breadtxt {
   font-family: "Poppins";
   font-weight: 400;
   padding: 10px 0 0 0;
@@ -61,6 +62,8 @@ p {
   margin: 0 5vw 10px 5vw;
 }
 
+/* QUOTES */
+
 blockquote {
   font-family: "Poppins";
   font-weight: 200;
@@ -68,49 +71,47 @@ blockquote {
   font-size: 16px;
   margin: 0;
 }
-
-.quote {
+.quote-txt {
   margin: 0;
   margin: 0 9vw 0 9vw;
 }
-
 q {
   font-style: italic;
 }
+
+/* FIGURES */
 
 figure {
   display: block;
   width: 100vw;
   margin: 0;
 }
-
-.image-poster {
-  width: 100vw;
-  margin: 0 0 5px 0;
-}
-
-.caption {
+.figcap-txt {
   font-family: "Poppins";
   font-weight: 400;
   font-size: 8px;
   margin: 0 5vw 10px 5vw;
 }
-
-.caption_author {
+.figcap-author {
   font-family: "Poppins";
   font-weight: 200;
   font-size: 8px;
   text-align: right;
   margin: 0 9vw 10px 9vw;
 }
-
-.headline {
+.img-head {
   width: 100%;
   margin: 0;
 }
-.image_portrait {
+.img-portrait {
   width: 100vw;
 }
+.img-poster {
+  width: 100vw;
+  margin: 0 0 5px 0;
+}
+
+/* SECTION DIVIDER */
 
 hr {
   border: none;
