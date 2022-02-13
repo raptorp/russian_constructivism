@@ -15,7 +15,7 @@ h1 {
   background-color: #0d0d0d;
   background-size: cover;
   padding: 10px 0 10px 0;
-  margin: 0;
+  margin: 0 0 5px 0;
 }
 
 .h_r {
@@ -53,8 +53,8 @@ h2 {
 
 .header_sub {
   font-family: "Poppins";
-  font-weight: bold;
-  padding: 0;
+  font-weight: 400;
+  padding: 10px 0 0 0;
 }
 
 p {
@@ -81,15 +81,19 @@ q {
 figure {
   display: block;
   width: 100vw;
-  height: fit-content;
   margin: 0;
+}
+
+.poster {
+  width: 100vw;
+  margin: 0 0 5px 0;
 }
 
 .caption {
   font-family: "Poppins";
   font-weight: 400;
   font-size: 8px;
-  margin: 0 5vw 0 5vw;
+  margin: 0 5vw 10px 5vw;
 }
 
 .caption_author {
@@ -98,10 +102,6 @@ figure {
   font-size: 8px;
   text-align: right;
   margin: 0 9vw 10px 9vw;
-}
-
-.poster {
-  width: 100%;
 }
 
 .headline {
@@ -117,6 +117,7 @@ hr {
 }
 hr::before {
   content: "***";
+  color: #a61b1b;
   display: block;
   text-align: center;
   padding: 15px 0 5px 0;
